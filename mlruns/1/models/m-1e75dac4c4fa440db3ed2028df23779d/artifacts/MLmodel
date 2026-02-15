@@ -1,0 +1,23 @@
+artifact_path: file:C:/voyage_analytics/flight_price_app/mlruns/1/models/m-1e75dac4c4fa440db3ed2028df23779d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-1e75dac4c4fa440db3ed2028df23779d
+model_size_bytes: 33605298
+model_uuid: m-1e75dac4c4fa440db3ed2028df23779d
+prompts: null
+run_id: e3e4e7ef50244e1e926dc2ca0384d319
+utc_time_created: '2026-02-14 18:46:02.109075'
